@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <title>Daft Punk - HTML5 Audio</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Exo+2:400,300,200,900,700,600,500" rel="stylesheet" type="text/css">
+  <script defer src="scripts/app.js"></script>
+  <style>
+    .grid{
+      display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    width: 400px;
+    height:400px;
+    }
+    .cell{
+      border: 1px solid black;
+      background color: lightblue;
+    }
+  </style>
+</head>
+<body>
+<audio id ="after" src="./sounds/after.wav"></audio>
+<audio id ="better" src="./sounds/better.wav"></audio>
+<audio id ="do_it" src="./sounds/do_it.wav"></audio>
+<audio id ="ever" src="./sounds/ever.wav"></audio>
+<audio id ="faster" src="./sounds/faster.wav"></audio>
+<audio id ="harder" src="./sounds/harder.wav"></audio>
+<audio id ="hour" src="./sounds/hour.wav"></audio>
+<audio id ="make_it" src="./sounds/make_it.wav"></audio>
+<audio id ="makes_us" src="./sounds/makes_us.wav"></audio>
+<audio id ="more_than" src="./sounds/more_than.wav"></audio>
+<audio id ="never" src="./sounds/never.wav"></audio>
+<audio id ="our" src="./sounds/our.wav"></audio>
+<audio id ="over" src="./sounds/over.wav"></audio>
+<audio id ="stronger" src="./sounds/stronger.wav"></audio>
+<audio id ="work_is" src="./sounds/work_is.wav"></audio>
+<audio id ="work_it" src="./sounds/work_it.wav"></audio>
+
+<div id="buttons"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
